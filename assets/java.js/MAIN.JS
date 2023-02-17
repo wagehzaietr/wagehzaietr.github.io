@@ -8,8 +8,8 @@ var type = new Typed(".auto-type", {
 
 
 
-  $(window).on("load", function() {
-    console.log("Load event triggered");
-    $(".loader-wrapper").fadeOut("slow");
-  });
-  
+ $(document).ready(function() {
+  console.log("DOM is ready");
+  $(".loader-wrapper").fadeOut("slow");
+});
+
