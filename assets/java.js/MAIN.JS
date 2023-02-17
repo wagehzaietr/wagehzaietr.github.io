@@ -1,8 +1,8 @@
 
 var type = new Typed(".auto-type", {
     strings: ["Web Developer", "Graphic Designer", "creative", ""],
-    typeSpeed: 50,
-    backSpeed: 65,
+    typeSpeed: 70,
+    backSpeed: 60,
     loop: true,
 });
 
