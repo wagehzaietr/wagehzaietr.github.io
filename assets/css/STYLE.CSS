@@ -457,8 +457,17 @@ html, body{
   .left{
 	display: none;
   }
+  .btn{
+    width: 50%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: var(--main-color);
+    cursor: pointer;
+    outline: none;
+	border-radius: 10px;
+    border: none;
+    transition: .3s;
 }
-
 }
 /* end contact */
 
