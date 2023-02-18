@@ -283,8 +283,9 @@ html, body{
 	object-fit: cover;
 	transform: skewY(-6deg);
 	transform-origin: top left;
-
 }
+
+
 
 .auto-type{
 	color: var(--color-1);
@@ -341,7 +342,7 @@ html, body{
 	}
   }
   .landing .go-down {
-	color: var(--main-color);
+	color: var(--color-1);
 	position: absolute;
 	bottom: 30px;
 	left: 50%;
@@ -393,17 +394,11 @@ html, body{
 }
 
 .left{
-    height: 60%;
+    height: calc(50% + 15px);
     background: rgba(182, 177, 177, 0.082);
-    box-shadow: 0 0 10px 0 120;
     background: url(/assets/imgs/megamenu.png);
     background-size: cover;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
 
 .right{
     padding: 25px 40px;
@@ -430,7 +425,7 @@ html, body{
 }
 
 .btn{
-    width: 100%;
+    width: 50%;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
     background-color: var(--main-color);
@@ -464,7 +459,7 @@ html, body{
     background-color: var(--main-color);
     cursor: pointer;
     outline: none;
-    border-radius: 10px;
+	border-radius: 10px;
     border: none;
     transition: .3s;
 }
@@ -704,15 +699,18 @@ html, body{
 	font-size: 20px;
 	transition: var(--main-transition);
   }
-  .footer .box .social .facebook:hover {
+
+  .footer .box .social .linkedin:hover{
 	background-color: #1877f2;
+
   }
-  .footer .box .social .twitter:hover {
-	background-color: #1da1f2;
+
+  .footer .box .social .git:hover{
+	background-color: #31f218af;
+
   }
-  .footer .box .social .youtube:hover {
-	background-color: #faf2f250;
-  }
+
+
   .footer .box .text {
 	line-height: 2;
 	color: #b9b9b9;
@@ -728,7 +726,7 @@ html, body{
 	padding-left: 10px;
   }
   .footer .box .links li:hover a {
-	color: white;
+	color: rgb(0, 214, 252);
   }
   .footer .box .links li a {
 	color: #b9b9b9;
