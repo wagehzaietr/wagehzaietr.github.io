@@ -447,11 +447,11 @@ html, body{
 @media screen and (max-width:880px) {
     .contact-box{
     grid-template-columns: 1fr;
+	width: 400px;
+	border-radius: 2px;
     }
-    .left{
-        height: 200px;
-        width: 250px;
-    }
+
+}
 
 }
 /* end contact */
