@@ -445,12 +445,18 @@ html, body{
 }
 
 @media screen and (max-width:880px) {
-    .contact-box{
+  .contact-box {
+    width: 370px;
+    max-width: 390px;
+    margin: 0 auto;
+    border-radius: 2px;
+    display: grid;
     grid-template-columns: 1fr;
-	width: 400px;
-	border-radius: 2px;
-    }
-
+    grid-gap: 20px;
+  }
+  .left{
+	display: none;
+  }
 }
 
 }
