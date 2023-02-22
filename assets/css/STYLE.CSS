@@ -179,7 +179,7 @@ html, body{
     and (device-width: 375px) 
     and (device-height: 812px) 
     and (-webkit-device-pixel-ratio: 3) {
-
+	    
 	 }
 
 @media only screen 
@@ -825,6 +825,15 @@ html, body{
 	  text-align: center;
 	}
   }
+
+@media (max-width: 813px) {
+  .work-steps .container .load{
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+}
   .work-steps .info .box::before {
 	content: "";
 	left: 50%;
